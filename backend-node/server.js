@@ -19,10 +19,6 @@ con.connect(function (err){
 });
 
 
-    sadsadsad
-
-asdsadsad
-
 app.use(cors());
 app.use(express.json());
 app.use(bodyParser.urlencoded({extended:true}))
