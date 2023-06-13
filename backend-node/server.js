@@ -71,6 +71,8 @@ app.put("/api/users/:id", (req, res) => {
   );
 });
 
+
+
 app.delete("/api/users/:id", (req, res) => {
   const { id } = req.params;
   const removeUser = "DELETE FROM  users WHERE id =?";
